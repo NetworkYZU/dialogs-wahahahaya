@@ -74,8 +74,8 @@ public class ShowInternalMessageDialogSample extends javax.swing.JFrame {
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
         //show internal message dialog
-        JOptionPane.showMessageDialog(getContentPane(), "test");
-        //JOptionPane.showInternalMessageDialog(getContentPane(), "test");
+        //JOptionPane.showMessageDialog(getContentPane(), "test");
+        JOptionPane.showInternalMessageDialog(getContentPane(), "test");
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
